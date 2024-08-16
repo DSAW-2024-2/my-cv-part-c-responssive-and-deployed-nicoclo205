@@ -116,12 +116,30 @@ ul{
         
     }
 
-    .page{
-        width: 100%;
+    .page {
+        width: 80%;
+        max-width: 1200px;
     }
 
-    .circle{
-        width: 10vw;
+    header h1{
+        font-size: 22px;
     }
-     
+
+    .container {
+        flex-direction: row;
+    }
+
+    .column-left {
+        width: 30%;
+    }
+
+    .column-right {
+        width: 70%;
+    }
+
+    .circle {
+        width: 80%;
+        max-width: 200px;
+    }
 }
+     
