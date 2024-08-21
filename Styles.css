@@ -1,0 +1,145 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: #e4e7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    word-break: break-word;
+}
+
+h2{
+    margin: 5%;
+    word-break: break-word;
+}
+
+.h2{
+    margin-top:10%;
+    margin-bottom: 10%;
+    margin-left: -3%;
+    margin-right: -3%;
+    padding: 5px;
+    background-color: #c9d2ff;
+    color: rgb(57, 56, 56);
+    font-size: 20px;
+    word-break: break-word;
+}
+
+.li{ /*Esta clase se creo para el apartado de contactos*/
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 13px;
+    overflow: break-word;
+}
+
+.h3{
+    margin-left:8%;
+    margin-bottom: 3%;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 8%;
+    list-style: none;
+}
+
+.page{
+    width: 50%;
+    height: 90%;
+    background-color: aliceblue;
+    margin:20px;
+    padding:0;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    background: #455a97 ;
+}
+
+.column-right {
+    width: 70%;
+    padding: 30px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #030303;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.costum-words{
+    word-break: break-word;
+    width: 100%;
+}
+
+@media(max-width: 768px){
+    *{
+        font-size: 12px;
+        padding:0;
+        margin: 0;
+        box-sizing: border-box;
+        
+    }
+
+    .page {
+        width: 100%;
+        height: 100vh;
+    }
+
+    header h1{
+        font-size: 22px;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        background-color:#e4e7fa;
+    }
+
+    .column-left {
+        width: 100%;
+        height: auto;
+    }
+
+    .column-right {
+        width: 100%;
+    }
+
+}
+     
